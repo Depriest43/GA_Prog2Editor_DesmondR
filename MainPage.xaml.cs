@@ -62,7 +62,7 @@
         }
             private void UpdateInfoEditor()
             {
-                editorInfo.Text = "";
+            editorInfo.Text = ""; // Clear the current text
             foreach (var name in names) ; 
             }
         
