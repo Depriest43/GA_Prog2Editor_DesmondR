@@ -1,0 +1,8 @@
+﻿<maui:MauiWinUIApplication
+    x:Class="GA_Prog2Editor_DesmondR.WinUI.App"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:maui="using:Microsoft.Maui"
+    xmlns:local="using:GA_Prog2Editor_DesmondR.WinUI">
+
+</maui:MauiWinUIApplication>

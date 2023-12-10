@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="GA_Prog2Editor_DesmondR.MainPage">
+
+    <ScrollView>
+        <VerticalStackLayout
+            Spacing="25"
+            Padding="30,0"
+            VerticalOptions="Center">
+            <Label x:Name="labelCount" Text="Count: 0" />
+            <Editor x:Name="editorInfo" IsReadOnly="True"
+                    HeightRequest="100" />
+            <Label Text="Enter a name" />
+            <Entry x:Name="entryName" Placeholder="Name"
+                   Text="enter Index" />
+            <Entry x:Name="entryIndex" Placeholder="Index"
+                          Keyboard="Numeric" />
+            <Button x:Name="buttonAdd" Text="Add Information" Clicked="buttonAdd_Clicked" />
+
+            <Button x:Name="buttonUpdate" Text="Update Information" Clicked="buttonUpdate_Clicked" />
+            <Button x:Name="buttonInsert" Text="Insert at Index" Clicked="buttonInsert_Clicked" />
+            <Button x:Name="buttonRemove" Text="Remove at Index" Clicked="buttonRemove_clicked" />
+            <Button x:Name="buttonClear" Text="Clear List" Clicked="buttonClear_Clicked" />
+
+
+        </VerticalStackLayout>  
+    </ScrollView>
+
+</ContentPage>
