@@ -20,8 +20,8 @@
 
             <Button x:Name="buttonUpdate" Text="Update Information" Clicked="buttonUpdate_Clicked" />
             <Button x:Name="buttonInsert" Text="Insert at Index" Clicked="buttonInsert_Clicked" />
-            <Button x:Name="buttonRemove" Text="Remove at Index" Clicked="buttonRemove_Clicked" />      
-            <Button x:Name="buttonClear" Text="Clear List" Clicked="buttonClear_Clicked" />
+            <Button x:Name="buttonRemove" Text="Remove at Index" Clicked="buttonRemove_Clicked" />                  
+            <Button x:Name="buttonClear" Text="Clear List" Clicked="buttonClear_Clicked" /> 
 
 
         </VerticalStackLayout>  
