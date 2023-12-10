@@ -61,8 +61,8 @@
             UpdateCountLabel();
         }
             private void UpdateInfoEditor()
-            {
-            editorInfo.Text = ""; // Clear the current text
+                {
+                editorInfo.Text = ""; // Clear the current text
             foreach (var name in names) ; 
             }
         
